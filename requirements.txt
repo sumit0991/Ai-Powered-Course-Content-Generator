@@ -9,3 +9,4 @@ faiss-cpu>=1.9.0
 PyMuPDF>=1.23.25
 rank_bm25>=0.2.2
 pydantic>=2.6.4
+sentence-transformers
