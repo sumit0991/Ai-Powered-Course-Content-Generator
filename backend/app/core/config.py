@@ -41,7 +41,7 @@ class Settings:
     EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
     # API Keys for external services
-    YOUTUBE_API_KEY: str = os.getenv("YOUTUBE_API_KEY", "AIzaSyDC_U7bzKWnio_uUppbp2C0zlr42gQMJGE")
+    # YOUTUBE_API_KEY: str = os.getenv("YOUTUBE_API_KEY", "AIzaSyDC_U7bzKWnio_uUppbp2C0zlr42gQMJGE")
 
 
 settings = Settings()
