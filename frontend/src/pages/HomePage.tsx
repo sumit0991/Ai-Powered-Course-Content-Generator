@@ -36,7 +36,7 @@ const HomePage: React.FC = () => {
                     d="M10 40 Q150 10 290 40"
                     stroke="url(#bridgeGradient)"
                     strokeWidth="8"
-                    strokeWidth="19"
+                    // strokeWidth="19"
                     fill="none"
                     strokeLinecap="round"
                   />

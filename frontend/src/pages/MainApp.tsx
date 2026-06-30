@@ -30,7 +30,7 @@ const MainApp: React.FC = () => {
   const [videos, setVideos] = useState<Video[]>([]);
   const [sources, setSources] = useState<string[]>([]);
   const [activeTab, setActiveTab] = useState<'notes' | 'cards' | 'videos' | 'verify'>('notes');
-  const [isDarkMode, setIsDarkMode] = useState<boolean>(localStorage.getItem('theme') === 'dark');
+  const [isDarkMode] = useState(false); 
 
   const contentRef = useRef<HTMLDivElement>(null);
 
